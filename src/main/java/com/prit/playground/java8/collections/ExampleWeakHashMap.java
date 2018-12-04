@@ -2,6 +2,7 @@ package com.prit.playground.java8.collections;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Map;
 import java.util.WeakHashMap;
@@ -22,6 +23,7 @@ public class ExampleWeakHashMap {
 }
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 class Order {
     int orderId;
     String details;

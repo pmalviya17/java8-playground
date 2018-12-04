@@ -13,8 +13,6 @@ import java.util.Map;
  *    https://www.youtube.com/watch?v=c3RVW3KGIIE
  *    Also, You can refer below link for
  *
- *    by Ranjith ramachandran
- *
  */
 public class ExampleConcurrentModificationException {
     public static void main(String[] args) {

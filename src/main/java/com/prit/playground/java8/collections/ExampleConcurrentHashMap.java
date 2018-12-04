@@ -69,10 +69,10 @@ public class ExampleConcurrentHashMap {
 
     static void processOrder(){
         for(String city : orders.keySet()){
-          for (int i = 0; i<50 ; i++) {
-              Long oldOrder = orders.get(city); /** "get()" NON-Atomic operations */
-              orders.put(city, oldOrder + 1);   /** "put()" NON-Atomic operations */
-          }
+            for (int i = 0; i<50 ; i++) {
+                Long oldOrder = orders.get(city); /** "get()" NON-Atomic operations */
+                orders.put(city, oldOrder + 1);   /** "put()" NON-Atomic operations */
+            }
         }
     }
 }
