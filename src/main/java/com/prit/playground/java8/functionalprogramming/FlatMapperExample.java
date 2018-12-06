@@ -26,7 +26,7 @@ public class FlatMapperExample {
 
         Optional<String> stringOptional = users.stream()
                 .map(user -> user.getPhoneNumbers().stream())
-                .flatMap(stringStream -> stringStream.filter(phoneNo -> phoneNo.equals("10")))
+                .flatMap(stringStream -> stringStream.filter(phoneNo -> phoneNo.equals("5")))
                 .findAny();
 
         stringOptional.ifPresent(System.out::println);
