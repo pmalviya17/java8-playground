@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="java8-playground" />
         <module name="java_playground" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="java8-playground" target="1.8" />
       <module name="java_playground" target="1.8" />
     </bytecodeTargetLevel>
   </component>
